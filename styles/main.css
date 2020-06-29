@@ -85,13 +85,13 @@ body{
     width: 100%;
 }
 .container{
+    width: 90%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill,300px);
     grid-auto-rows: 320px;
     grid-gap: 15px;
     justify-content: center;
-    width: 90%;
-    margin: 0 auto;
 }
 .item{
     border-radius: 25px;
